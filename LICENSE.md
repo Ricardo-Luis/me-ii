@@ -5,4 +5,5 @@ The material in this repository is licensed as follows:
 - The **text** is under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0).
 
 
-[$$© \text{ 2023 Ricardo Luís}$$](https://ricardo-luis.github.io/me-ii/)"
+[$$© \text{ 2023 Ricardo Luís}$$](https://ricardo-luis.github.io/me-ii/)
+
