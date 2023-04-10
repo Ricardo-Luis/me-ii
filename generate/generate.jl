@@ -52,19 +52,19 @@ md"""
 """
 
 # ╔═╡ 2bee2fc7-3322-457f-a835-028c80eaf059
-TITLE = "A Great Course"
+TITLE = "Máquinas Elétricas II"
 
 # ╔═╡ a0057e4c-0bcf-4970-8a2b-0412ad5af510
-SUBTITLE = "Content and Code"
+SUBTITLE = "reactive notebooks"
 
 # ╔═╡ 4be56e57-fea0-4fbe-9659-44bed594b1b2
-INSTITUTION = "University of Greatness"
+INSTITUTION = "DEEEA · LEE"
 
 # ╔═╡ c9f17f9f-766a-4137-92c5-f8173561a7bc
-INSTITUTION_URL = "https://www.tinbergen.nl"
+INSTITUTION_URL = "https://www.isel.pt"
 
 # ╔═╡ ab7186a4-2287-41da-a939-70f142bfeacd
-TERM = "Spring 2022"
+TERM = "2022 · 2023"
 
 # ╔═╡ a31d893d-2cde-4228-a506-6af013fe1f3e
 LOGO_FILE = "julia-logo.svg"
@@ -87,7 +87,7 @@ available at `https://username.github.io/YourPackage.jl/` then the pre-path shou
 
 # ╔═╡ 88e1e91d-0d48-42e0-b4ab-4866624fd745
 begin
-	PREPATH = "pluto-course-template"
+	PREPATH = "me-ii"
 	@skip_as_script PREPATH = ""
 end
 
@@ -104,17 +104,17 @@ show_section_number = false
 
 # ╔═╡ 01a2336a-5c04-4d5a-bb0b-a9c704517dbf
 pages = [
-	(page = "/logistics/", title = "Class Logistics"),
-	(page = "/syllabus/", title = "Syllabus"),
-	(page = "/installation/", title = "Software installation"),
-	(page = "/cheatsheets/", title = "Cheatsheets")
+	(page = "/logistics/", title = "Notebooks reativos"),
+	(page = "/installation/", title = "Instalação de software"),
+	(page = "/cheatsheets/", title = "Consulta rápida"),
+	(page = "/syllabus/", title = "Acknowledgements")
 ]
 
 # ╔═╡ c0768146-5ea0-4736-94f8-2c1a2affa922
 SLASH_PREPATH = !isempty(PREPATH) ? "/" * PREPATH : ""
 
 # ╔═╡ 02e00e09-76a5-4f38-8557-4d9caf280b4c
-homepage = (page = "/index.html", path = "$SLASH_PREPATH/", title = "Welcome")
+homepage = (page = "/index.html", path = "$SLASH_PREPATH/", title = "Bem-vindo(a)")
 
 # ╔═╡ d83ee9b9-d255-4217-a776-3b0f4f168c8f
 @bind regenerate Button("Regenerate!")
@@ -222,8 +222,8 @@ end
 
 # ╔═╡ 3e93e57c-3660-416f-9874-d43abf99e60e
 INSTRUCTORS = [
-	(name = "Person 1", url = ""),
-	(name = "Person 2", url = "")
+	(name = "Ricardo Luís", url = "/")#,
+	#(name = "Person 2", url = "")
 ] |> instructors
 
 # ╔═╡ d78c58e5-3ecb-45ee-972e-20fc90ece3cc
