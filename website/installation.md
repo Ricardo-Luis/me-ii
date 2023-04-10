@@ -4,9 +4,9 @@
 > This material is taken from _**Computational Thinking**, a live online Julia/Pluto textbook._ [(computationalthinking.mit.edu)](https://computationalthinking.mit.edu)
 
 
-## Step 1: Install Julia 1.7.2
+## Step 1: Install Julia
 
-Go to [https://julialang.org/downloads](https://julialang.org/downloads) and download the current stable release, Julia 1.7.2, using the correct version for your operating system (Linux x86, Mac, Windows, etc).
+Go to [https://julialang.org/downloads](https://julialang.org/downloads) and download the current stable release of Julia, using the correct version for your operating system (Linux x86, Mac, Windows, etc).
 
 *Mac users beware!* Do **not** download the ARM/M-series version of Julia! It is still experimental and some packages will not work.
 
@@ -27,21 +27,28 @@ Open the **Julia REPL**. This is the command-line interface to Julia, similar to
 Here you type _Julia commands_, and when you press ENTER, it runs, and you see the result.
 
 To install Pluto, we want to run a _package manager command_. To switch from _Julia_ mode to _Pkg_ mode, type `]` (closing square bracket) at the `julia>` prompt:
+
+\
 ```julia
 julia> ]
-
+```
+\
+```julia
 (@v1.7) pkg>
 ```
 
+\
 The line turns blue and the prompt changes to `pkg>`, telling you that you are now in _package manager mode_. This mode allows you to do operations on **packages** (also called libraries).
 
 To install Pluto, run the following (case sensitive) command to *add* (install) the package to your system by downloading it from the internet.
 You should only need to do this *once* for each installation of Julia:
 
+\
 ```julia
 (@v1.7) pkg> add Pluto
 ```
 
+\
 This might take a couple of minutes, so you can go get yourself a cup of tea!
 
 ![image](https://user-images.githubusercontent.com/6933510/91440380-ceb16400-e86e-11ea-9352-d164911774cf.png)
@@ -58,11 +65,16 @@ Repeat the following steps whenever you want to work on a project or homework as
 ## Step 1: Start Pluto
 
 Start the Julia REPL, like you did during the setup. In the REPL, type:
+
+\
 ```julia
 julia> using Pluto
-
+```
+\
+```julia
 julia> Pluto.run()
 ```
+\
 
 ![image](https://user-images.githubusercontent.com/6933510/91441094-eb01d080-e86f-11ea-856f-e667fdd9b85c.png)
 
@@ -116,4 +128,4 @@ Click _Choose_.
 
 ## Step 4: Sharing a notebook
 
-After working on your notebook (your code is autosaved when you run it), you will find your notebook file in the folder we created in step 3. This the file that you can share with others, or submit as your homework assignment to Canvas.
+After working on your notebook (your code is autosaved when you run it), you will find your notebook file in the folder we created in step 3. This the file that you can share with others.
