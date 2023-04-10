@@ -42,23 +42,23 @@ md"""
 \
 **Máquina elétrica de corrente contínua**
 
-- [Gerador: exc. separada vs. shunt, Ex.2](./DC/Separ.Shunt.GEN.Ex2.html)
-- [Gerador compound, Ex.4](./DC/Compound.GEN.Ex4.html)
-- [Paralelo de geradores, Ex.6](./DC/ParallelGenerators.Ex6.html)
-- [Curvas características motores, Ex.7](./DC/DCmotors.Ex7.html)
-- [Ensaio back-to-back, Lab.](./DC/back2backlab.html)
-- [Motor série, Ex.9](./DC/SeriesMotor.html)
-- [Resolução de teste (03/nov/2022)](./DC/Test.DCmachines.html)
+- [Gerador: exc. separada vs. shunt, Ex.2](./Separ.Shunt.GEN.Ex2.html)
+- [Gerador compound, Ex.4](./Compound.GEN.Ex4.html)
+- [Paralelo de geradores, Ex.6](./ParallelGenerators.Ex6.html)
+- [Curvas características motores, Ex.7](./DCmotors.Ex7.html)
+- [Ensaio back-to-back, Lab.](./back2backlab.html)
+- [Motor série, Ex.9](./SeriesMotor.html)
+- [Resolução de teste (03/nov/2022)](./Test.DCmachines.html)
 
 \
 **Máquina elétrica síncrona trifásica**
 
-- [Alternador em regime isolado, Ex.1](./AC/StandAloneSynGen.html)
-- [Alternador, curvas características, Ex.2](./AC/CurvesSynGen.html)
-- [Curvas de Mordey](./AC/Vcurves.html)
-- [Motor polos salientes, Ex.8](./AC/SalientPoleSyncMotor.html)
-- [Critério da igualdade das áreas, Ex.11](./AC/EqualArea.html)
-- [Resolução de teste (27/jan/2023)](./AC/Test.ACmachines.html)
+- [Alternador em regime isolado, Ex.1](./StandAloneSynGen.html)
+- [Alternador, curvas características, Ex.2](./CurvesSynGen.html)
+- [Curvas de Mordey](./Vcurves.html)
+- [Motor polos salientes, Ex.8](./SalientPoleSyncMotor.html)
+- [Critério da igualdade das áreas, Ex.11](./EqualArea.html)
+- [Resolução de teste (27/jan/2023)](./Test.ACmachines.html)
 """
 
 # ╔═╡ f3769341-6dcd-4332-a0a0-0cf79205f627
